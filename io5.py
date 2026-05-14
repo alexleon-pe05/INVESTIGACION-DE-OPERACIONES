@@ -1,14 +1,5 @@
 # ================================================================
 # SISTEMA PERT/CPM - NOTACIÓN AOA (v5 - render con Graphviz)
-# Activity-On-Arrow con predecessor-signature y unicidad (i, j).
-# Layout jerárquico industrial: Graphviz dot (rankdir=LR, splines).
-# Ejecutar: streamlit run IO4.py
-# Requiere: pip install graphviz + binario Graphviz del sistema
-#   • Linux: sudo apt install graphviz
-#   • macOS: brew install graphviz
-#   • Windows: instalador de graphviz.org (agregar al PATH)
-# ================================================================
-
 import re
 from collections import defaultdict
 from io import BytesIO
